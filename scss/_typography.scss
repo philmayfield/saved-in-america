@@ -1,0 +1,209 @@
+h3, h4, b, strong, .bold {
+	font-family: $font-normal-bold;
+	font-weight: normal;
+}
+body {
+	font-family: $font-normal;
+}
+h1 {
+	// font-family: $font-stencil;
+	font-size: 1.75em;
+	font-weight: normal;
+}
+h1 svg {
+	height: 1em;
+	width: 35px;
+}
+h2, .font-tower {
+	font-family: $font-tower;
+	font-weight: normal;
+}
+h2 {
+	font-size: 1.5em;
+}
+.section-title {
+	color: $medium-grey;
+	font-size: 2em;
+	margin: 0 0 0 15px;
+}
+@media screen and (min-width: 480px) {
+	h1 {
+		font-size: 2em;
+	}
+	h1 svg {
+		width: 35px;
+	}
+	h2 {
+		font-size: 2em;
+	}
+}
+@media screen and (min-width: 640px) {
+	h1 {
+		font-size: 3em;
+	}
+	h1 svg {
+		width: 50px;
+	}
+	h2 {
+		font-size: 2.5em;
+	}
+}
+@media screen and (min-width: 768px) {
+	h1 {
+		font-size: 4em;
+	}
+	h1 svg {
+		width: 65px;
+	}
+	h2 {
+		font-size: 2.9em;
+	}
+}
+.title {
+	margin-bottom: 0;
+}
+.title + h2 {
+	margin-top: 0;
+}
+.title, .title + h2 {
+	position: relative;
+	z-index: 5;
+}
+.road {
+	font-size: 3em;
+	line-height: 1em;
+	margin: .5em 0;
+}
+.where-playing .address, .where-playing .times {
+	font-size: 1.5em;
+	line-height: 1em;
+}
+.where-playing p {
+	margin-top: 10px
+}
+.where-playing p + p {
+	margin-bottom: 15px;
+	margin-top: 15px;
+}
+@media screen and (min-width: 500px) {
+	.where-playing .address, .where-playing .times {
+		font-size: 2em;
+	}
+}
+@media screen and (min-width: 640px) {
+	.road {
+		font-size: 4em;
+	}
+	.where-playing .address, .where-playing .times {
+		font-size: 3em;
+	}
+}
+@media screen and (min-width: 768px) {
+	.road {
+		font-size: 5em;
+		margin: .35em 0;
+	}
+	.where-playing .address {
+		font-size: 1em;
+	}
+	.address .line1 {
+		font-size: 2em;
+		line-height: 1.25em;
+	}
+	.address .line2 {
+		font-size: 1.75em;
+	}
+	.where-playing .times {
+		font-size: 2em;
+		margin-bottom: 0;
+	}
+}
+@media screen and (min-width: 1024px) {
+	.road {
+		font-size: 6em;
+		margin: .25em 0;
+	}
+	.address .line1 {
+		font-size: 3em;
+		line-height: 1.25em;
+	}
+	.address .line2 {
+		font-size: 2.5em;
+	}
+	.where-playing .times {
+		font-size: 3em;
+	}
+}
+blockquote {
+	margin-bottom: 0;
+	margin-right: 15px;
+	margin-top: 0;
+	position: relative;
+	z-index: 1;
+}
+.quotes > div:nth-of-type(even) blockquote {
+	margin-top: 3em;
+}
+blockquote:before, blockquote:after {
+	color: $dark-grey;
+	font-size: 10em;
+	line-height: 0;
+	position: absolute;
+	z-index: -1;
+}
+blockquote:before {
+	content: '“';
+	left: -35px;
+	top: .4em;
+}
+@media screen and (min-width: 768px) {
+	blockquote {
+		margin-right: 40px;
+	}
+	blockquote:before {
+		left: -50px;
+	}
+	blockquote:after {
+		bottom: .1em;
+		content: '”';
+		right: -30px;
+	}
+	.quotes > div:nth-of-type(even) blockquote {
+		margin-top: 1em;
+	}
+}
+cite:before {
+	content: '-';
+}
+.credits {
+	font-size: 2em;
+	line-height: 1em;
+	text-align: center
+}
+.credits .by, .credits .sm {
+	font-size: .4em;
+}
+.credits .by {
+	display: block;
+	line-height: .8em;
+	margin: .5em 0 0 0;
+}
+@media screen and (min-width: 550px) {
+	.credits {
+		font-size: 2.9em;
+	}
+}
+@media screen and (min-width: 768px) {
+	.credits {
+		text-align: left;
+	}
+	.credits .by, .credits .credit {
+		display: inline-block;
+	}
+	.credits > div:first-of-type {
+		text-align: right;
+	}
+	.credits > div:only-child {
+		text-align: center;
+	}
+}

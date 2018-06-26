@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'montserratlight';
+    src: url('../../fonts/montserrat-light-webfont.eot');
+    src: url('../../fonts/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('../../fonts/montserrat-light-webfont.woff') format('woff'),
+         url('../../fonts/montserrat-light-webfont.ttf') format('truetype'),
+         url('../../fonts/montserrat-light-webfont.svg#montserratlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-normal: montserratlight,Arial,sans-serif;
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../../fonts/montserrat-bold-webfont.eot');
+    src: url('../../fonts/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+         url('../../fonts/montserrat-bold-webfont.woff') format('woff'),
+         url('../../fonts/montserrat-bold-webfont.ttf') format('truetype'),
+         url('../../fonts/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-normal-bold: montserratbold,Arial,sans-serif;
+
+// @font-face {
+//     font-family: 'boston_trafficregular';
+//     src: url('../../fonts/boston_traffic-webfont.eot');
+//     src: url('../../fonts/boston_traffic-webfont.eot?#iefix') format('embedded-opentype'),
+//          url('../../fonts/boston_traffic-webfont.woff2') format('woff2'),
+//          url('../../fonts/boston_traffic-webfont.woff') format('woff'),
+//          url('../../fonts/boston_traffic-webfont.ttf') format('truetype'),
+//          url('../../fonts/boston_traffic-webfont.svg#boston_trafficregular') format('svg');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+// $font-stencil: boston_trafficregular,Arial,sans-serif;
+
+@font-face {
+    font-family: 'ostrich_sansmedium';
+    src: url('../../fonts/ostrich-regular-webfont.eot');
+    src: url('../../fonts/ostrich-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/ostrich-regular-webfont.woff2') format('woff2'),
+         url('../../fonts/ostrich-regular-webfont.woff') format('woff'),
+         url('../../fonts/ostrich-regular-webfont.ttf') format('truetype'),
+         url('../../fonts/ostrich-regular-webfont.svg#ostrich_sansmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font-tower: ostrich_sansmedium,Arial,sans-serif;

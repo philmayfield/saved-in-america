@@ -1,0 +1,24 @@
+%svg-common {
+	background: url(svg/sprite.view.svg) no-repeat;
+}
+
+.svg-flag {
+	@extend %svg-common;
+	background-position: 0 0;
+}
+
+.svg-flag-dims {
+	width: 432.001px;
+	height: 264.033px;
+}
+
+.svg-flag2 {
+	@extend %svg-common;
+	background-position: 99.76928406466513% 0;
+}
+
+.svg-flag2-dims {
+	width: 432px;
+	height: 264px;
+}
+
